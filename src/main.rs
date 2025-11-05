@@ -25,7 +25,6 @@ fn main() {
         numbers_to_guess.push(rand::rng().random_range(1..=10));
     }
 
-    println!("Numbers to guess: {:?}", numbers_to_guess);
     println!("Guess the number between 1 and 10!");
 
     while guess_index < numbers_to_guess.len() {
